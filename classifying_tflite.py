@@ -28,7 +28,7 @@ num_samples = 119
 ser = serial.Serial('COM3', 9600)
 
 # Open system pdf reader (specify application location)
-subprocess.Popen('C:/Program Files (x86)/Adobe/Reader 10.0/Reader/AcroRd32.exe')
+subprocess.Popen('application_location_path')
 
 # initialize num to 0
 num = 0
